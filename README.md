@@ -39,7 +39,7 @@ python-dotenv
 1. **Clone this repository**
 
 ```bash
-git clone [https://github.com/dark9ive/CP-term-score-calculator.git](https://github.com/dark9ive/CP-term-score-calculator.git)
+git clone https://github.com/dark9ive/CP-term-score-calculator.git
 cd CP-term-score-calculator
 ```
 
@@ -119,14 +119,12 @@ The tool will:
 ## File Structure
 
 ```
-
 .
 ├── oj_api_tool.py       # Main script
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 ├── .env                # Holds SITE variable (gitignored)
 └── .oj_api_cookies.json # Session cookies stored locally (gitignored)
-
 ```
 
 ---
@@ -141,6 +139,3 @@ The tool will:
 ## License
 
 MIT License. Feel free to adapt and extend.
-
-```
-
