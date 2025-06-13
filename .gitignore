@@ -1,0 +1,5 @@
+# Environment variables
+.env
+
+# Persisted cookies from our script
+.oj_api_cookies.json
