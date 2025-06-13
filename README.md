@@ -74,13 +74,7 @@ chmod +x oj_api_tool.py
 - **Login** (prompts credentials and optional 2FA):
 
 ```bash
-
 python3 oj_api_tool.py
-
-# or without mode (only authenticates):
-
-python3 oj_api_tool.py
-
 ```
 
 - **Logout**:
