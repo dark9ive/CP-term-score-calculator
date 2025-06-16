@@ -192,7 +192,7 @@ def main():
     parser = argparse.ArgumentParser(description="OnlineJudge API Tool")
     parser.add_argument('-v','--verbose',action='store_true')
     parser.add_argument('--logout',action='store_true')
-    parser.add_argument('--mode',type=str,help='ACM or OI')
+    parser.add_argument('-m','--mode',type=str,help='ACM or OI')
     args = parser.parse_args()
     global VERBOSE
     VERBOSE = args.verbose
